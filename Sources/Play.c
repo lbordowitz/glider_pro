@@ -135,9 +135,6 @@ void NewGame (short mode)
 		LoadGraphic(kGliderFoilPictID);
 	}
 	
-#if !BUILD_ARCADE_VERSION
-//	HideMenuBarOld();		// TEMP
-#endif
 	
 	SetPort((GrafPtr)mainWindow);		// paint strip on screen black
 	tempRect = thisMac.screen;
@@ -782,9 +779,6 @@ void RestoreEntireGameScreen (void)
 	
 	HideCursor();
 	
-#if !BUILD_ARCADE_VERSION
-//	HideMenuBarOld();		// TEMP
-#endif
 	
 	SetPort((GrafPtr)mainWindow);
 	tempRect = thisMac.screen;
