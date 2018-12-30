@@ -1,0 +1,36 @@
+[
+	{
+		"name":"Sprites/4013.PICT.png",
+		"mask":"Sprites/5013.PICT.png",
+		"crops":[
+			{
+				"name":"NewSprites/Dart_0.png",
+				"x":0,
+				"y":0,
+				"w":64,
+				"h":19
+			},
+			{
+				"name":"NewSprites/Dart_1.png",
+				"x":0,
+				"y":19,
+				"w":64,
+				"h":19
+			},
+			{
+				"name":"NewSprites/Dart_2.png",
+				"x":0,
+				"y":38,
+				"w":64,
+				"h":19
+			},
+			{
+				"name":"NewSprites/Dart_3.png",
+				"x":0,
+				"y":57,
+				"w":64,
+				"h":19
+			}
+		]
+	}
+]
