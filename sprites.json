@@ -32,5 +32,32 @@
 				"h":19
 			}
 		]
-	}
+	},
+    {
+        "name":"Sprites/4002.PICT.png",
+        "mask":"Sprites/5002.PICT.png",
+        "crops":[
+			{
+				"name":"NewSprites/Sparkle_0.png",
+				"x":0,
+				"y":70,
+				"w":20,
+				"h":19
+			},
+			{
+				"name":"NewSprites/Sparkle_1.png",
+				"x":0,
+				"y":89,
+				"w":20,
+				"h":19
+			},
+			{
+				"name":"NewSprites/Sparkle_2.png",
+				"x":0,
+				"y":108,
+				"w":20,
+				"h":19
+			}
+        ]
+    }
 ]
