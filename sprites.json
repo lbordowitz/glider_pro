@@ -507,5 +507,52 @@
 				"h":20
 			}
         ]
-    }
+    },
+    {
+        "name":"Sprites/3998.PICT.png",
+		"mask":"Sprites/4998.PICT.png",
+        "crops":[
+			{
+				"name":"NewSprites/Glider_R_Shadow.png",
+				"x":0,
+				"y":0,
+				"w":48,
+				"h":9
+			},
+			{
+				"name":"NewSprites/Glider_L_Shadow.png",
+				"x":0,
+				"y":9,
+				"w":48,
+				"h":9
+			}
+		]
+	},
+    {
+        "name":"Sprites/4007.PICT.png",
+		"mask":"Sprites/5007.PICT.png",
+        "crops":[
+			{
+				"name":"NewSprites/Band_0.png",
+				"x":0,
+				"y":0,
+				"w":16,
+				"h":6
+			},
+			{
+				"name":"NewSprites/Band_1.png",
+				"x":0,
+				"y":6,
+				"w":16,
+				"h":6
+			},
+			{
+				"name":"NewSprites/Band_2.png",
+				"x":0,
+				"y":12,
+				"w":16,
+				"h":6
+			}
+		]
+	}
 ]
