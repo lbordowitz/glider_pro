@@ -29,6 +29,11 @@ for t in typelines:
   except UnicodeDecodeError:
     c = c + 1
     print(t)
+    types_of_things += ["fake"]
+    num_of_things += ['0000']
+    resource_start += [t[0]]
+  except:
+    print(t)
 
 resource_end = [e[0] for e in endlines]
 
