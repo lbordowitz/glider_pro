@@ -4,21 +4,21 @@ import json
 '''
 # Format of json info
 [
-	{
-		"name":"imageName",
-		"mask":"maskName",
-		"crops":[
-			{
-				"name":"output_name",
-				"x":x_offset,
-				"y":y_offset,
-				"w":width,
-				"h":height
-			},
-			...
-		]
-	},
-	...
+    {
+        "name":"imageName",
+        "mask":"maskName",
+        "crops":[
+            {
+                "name":"output_name",
+                "x":x_offset,
+                "y":y_offset,
+                "w":width,
+                "h":height
+            },
+            ...
+        ]
+    },
+    ...
 ]
 '''
 
@@ -29,7 +29,10 @@ for smap in data:
     mask_name = smap['mask']
 
     im = Image.open(im_name)
-    mask = ImageChops.invert(Image.open(mask_name).convert('1'))
+    invert = smap.get('invert', True)
+    mask = Image.open(mask_name).convert('1')
+    if invert:
+        mask = ImageChops.invert(mask)
     frames = Image.new("RGBA",im.size,(255,0,0,0))
     frames.paste(im,(0,0,im.size[0],im.size[1]),mask)
 
